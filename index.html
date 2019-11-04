@@ -241,16 +241,17 @@
   </main>
   <footer class="page-footer">
     <div class="container">
-      <div class="company-description">
+      <h2 class="visually-hidden">About us</h2>
+      <section class="company-description">
         <a class="logo page-footer__logo">
-          <img src="img/logo.png" width="164" height="41" alt="JoomHost's logotype">
+          <img src="img/logo-footer.png" width="164" height="41" alt="JoomHost's logotype">
         </a>
-        <p class="company-description__text">
+        <p class="text company-description__text">
           Hosting Website Builder is a big library of pre-designed web elements which help you create website in few minutes.
         </p>
-      </div>
+      </section>
       <section class="page-footer__navigation">
-        <h2 class="visually-hidden">Навигация по нашему сайту</h2>
+        <h2 class="visually-hidden">Site's navigation</h2>
         <div class="page-footer__base">
           <h3 class="title page-footer__title page-footer__navigation-title">Knowledge Base</h3>
           <ul class="list page-footer__navigation-list page-footer__base-list">
@@ -276,12 +277,12 @@
         </div>
       </section>
       <section class="page-footer__feedback">
-        <h2 class="title page-footer__title"></h2>
+        <h2 class="title page-footer__title">Quick Contact</h2>
         <form class="page-footer__feedback-form" action="https://echo.htmlacademy.ru" method="get">
-          <input type="text" class="page-footer__feedback-field" name="page-footer__feedback-name" placeholder="Name">
-          <input type="text" class="page-footer__feedback-field" name="page-footer__feedback-mail" placeholder="Email Address">
-          <input type="text" class="page-footer__feedback-field" name="page-footer__feedback-subject" placeholder="Subject">
-          <textarea class="page-footer__feedback-field" name="page-footer__feedback-message" placeholder="Message"></textarea>
+          <input type="text" class="page-footer__feedback-field page-footer__feedback-field--input" name="page-footer__feedback-name" placeholder="Name" required>
+          <input type="email" class="page-footer__feedback-field page-footer__feedback-field--input" name="page-footer__feedback-mail" placeholder="Email Address" required>
+          <input type="text" class="page-footer__feedback-field page-footer__feedback-field--input" name="page-footer__feedback-subject" placeholder="Subject" required>
+          <textarea class="page-footer__feedback-field page-footer__feedback-field--textarea" name="page-footer__feedback-message" placeholder="Message" required></textarea>
           <button type="submit" class="page-footer__feedback-button">Send</button>
         </form>
       </section>
