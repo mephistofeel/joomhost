@@ -596,54 +596,17 @@ a {
   font-weight: 700;
 }
 
-
-/* .reviews-slider__item {
-  max-width: 524px;
-
-  font-size: 16px;
-
-  box-shadow: 0px 21px 49px 1px rgba(41, 44, 61, 0.15);
-  background-color: #ffffff;
+.partners {
+  padding-top: 95px;
+  padding-bottom: 80px;
 }
 
-.reviews-slider__box {
+.partners__list {
   display: -webkit-flex;
   display: -ms-flex;
   display: flex;
+  justify-content: space-between;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
 }
-
-.reviews-slider__photo-wrapper {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  justify-content: center;
-  -ms-align-items: center;
-  align-items: center;
-  width: 193px;
-  min-height: 347px;
-
-  background-color: #267ae9;
-}
-
-.reviews-slider__feedback-text {
-  display: -webkit-flex;
-  display: -ms-flex;
-  display: flex;
-  -webkit-flex-direction: column;
-  -ms-flex-direction: column;
-  flex-direction: column;
-  width: 330px;
-
-  padding: 60px 40px 0 50px;
-
-
-  line-height: 26px;
-}
-
-.reviews-slider__customer-name {
-  margin-top: 30px;
-  padding-bottom: 40px;
-
-  font-style: normal;
-  line-height: 30px;
-} */
