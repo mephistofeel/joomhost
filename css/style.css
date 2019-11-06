@@ -87,6 +87,36 @@ a {
           align-items: center;
 }
 
+.burger-menu {
+  position: relative;
+
+  display: none;
+  width: 45px;
+
+  border: 0;
+  background-color: #fff;
+  outline: none;
+
+  cursor: pointer;
+}
+
+.burger-menu__item {
+  display: block;
+  height: 5px;
+  margin-bottom: 5px;
+
+  background-color: #2f3f54;
+  border-radius: 2px;
+
+  opacity: 1;
+  transform: rotate(0deg);
+  transition: .25s ease-in-out;
+}
+
+.page-header__logo {
+  padding: 24px 0;
+}
+
 .page-navigation__list {
   display: -ms-flex;
   display: -webkit-box;

@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <!-- Ширина контента = ширине девайса, без нее медиа-запросы не будут работать -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>JoomHost | The Best Web Hosting</title>
@@ -9,6 +10,7 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/slick.css">
   <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
   <header class="page-header">
@@ -17,6 +19,11 @@
         <img src="img/logo.png" width="164" height="41" alt="JoomHost's logotype">
       </a>
       <nav class="page-navigation">
+        <button class="burger-menu">
+          <span class="burger-menu__item"></span>
+          <span class="burger-menu__item"></span>
+          <span class="burger-menu__item"></span>
+        </button>
         <ul class="list page-navigation__list">
           <li class="page-navigation__item"><a href="#" class="page-navigation__link">Home</a></li>
           <li class="page-navigation__item"><a href="#" class="page-navigation__link">About us</a></li>
@@ -29,7 +36,7 @@
       </nav>
     </div>
   </header>
-  <main>
+  <!-- <main>
     <article class="promo-article">
       <div class="container">
         <div class="promo-article__info">
@@ -288,6 +295,7 @@
       </section>
     </div>
   </footer>
+  -->
   <script src="js/jquery-3.4.1.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script src="js/main.js"></script>

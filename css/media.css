@@ -1,0 +1,43 @@
+@media (max-width: 992px) {
+
+  .page-navigation__list {
+    position: absolute;
+    top: 86px;
+    left: 0;
+
+    display: none;
+    width: 100%;
+
+    text-align: center;
+  }
+
+  .burger-menu {
+    display: block;
+  }
+
+  .page-navigation__item {
+    padding: 0;
+    margin-right: 0;
+  }
+
+  .page-navigation__link {
+    display: block;
+    padding: 10px 0;
+
+    border-bottom: 1px solid #2f3f54;
+  }
+
+  .page-navigation__item:first-of-type .page-navigation__link {
+    border-top: 1px solid #2f3f54;
+  }
+
+}
+
+@media (min-width: 992px) {
+
+  /* Убираем специфичность внутреннего стиля, который задает jquery */
+  .page-navigation__list {
+    display: flex !important;
+  }
+
+}

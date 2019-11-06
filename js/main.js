@@ -10,4 +10,8 @@ $(function(){
     arrows: false
   });
 
+  $('.burger-menu').on('click', function(){
+    $('.page-navigation__list').slideToggle();
+  });
+
 });
