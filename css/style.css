@@ -157,7 +157,7 @@ a {
           flex-direction: column;
   max-width: 555px;
   margin-top: 160px;
-  margin-right: 300px;
+  margin-right: 48px;
   margin-bottom: 270px;
 
   line-height: 24px;
@@ -260,29 +260,19 @@ a {
 
 .promo-article__decorative {
   position: relative;
-
-  margin-top: 150px;
 }
 
-.promo-article__decorative::before{
-  content: "";
+.promo-article__superman {
+  position: relative;
 
-  position: absolute;
-  top: 50px;
-  left: -260px;
-  z-index: 0;
-
-  width: 385px;
-  height: 462px;
-
-  background-image: url("../img/promo-article__superman.png");
-  background-repeat: no-repeat;
-  background-position: 0 0;
+  margin-top: 190px;
 }
 
 .promo-article__circle-price {
-  position: relative;
-  z-index: 5;
+  position: absolute;
+  top: 142px;
+  left: 247px;
+
   display: -ms-flex;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -291,8 +281,10 @@ a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+  justify-content: center;
+  align-items: center;
   width: 230px;
-  padding: 70px 60px 73px 50px;
+  height: 230px;
 
   color: #212121;
 
