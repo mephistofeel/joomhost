@@ -1,3 +1,32 @@
+@media (max-width: 1176px) {
+
+  .pricing__price-list {
+    justify-content: center;
+  }
+
+  .pricing__price-item {
+    margin-bottom: 40px;
+  }
+
+  .pricing__price-item:nth-of-type(3n) {
+    margin-right: 30px;
+  }
+  
+  /* .pricing__price-item {
+    width: 48%;
+    margin-bottom: 20px;
+  }
+
+  Такая вечеринка применяетс, когда элемент абсолютно спозиционирован и он должен узнать свои границы, чтобы отцентроваться
+  .price-card__price {
+    left: 0;
+    right: 0;
+
+    margin: 0 auto;
+  } */
+
+}
+
 @media (max-width: 1102px) {
 
   .promo-article__info {
@@ -79,6 +108,27 @@
 
 }
 
+@media (max-width: 816px) {
+
+  .pricing {
+    padding: 80px 0 80px;
+  }
+
+  .pricing__text--small {
+    margin-bottom: 60px;
+  }
+
+}
+
+@media (max-width: 756px) {
+
+  .pricing__price-item,
+  .pricing__price-item:nth-of-type(3n) {
+    margin-right: 0;
+  }
+
+}
+
 @media (max-width: 735px) {
 
   .promo-article .container {
@@ -106,6 +156,41 @@
 
 }
 
-@media (max-width: 405px) {
+@media (max-width: 425px) {
+
+  .promo-article .container {
+    justify-content: flex-start;
+  }
+
+  .promo-article__title {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+}
+
+@media (max-width: 400px) {
+
+  .promo-article__superman {
+    position: relative;
+    top: 0;
+    left: -7px;
+  }
+
+  .circle-price {
+    top: -24px;
+    left: 118px;
+  }
+
+  .pricing__text--bold {
+    font-size: 40px;
+    line-height: 42px;
+  }
+
+  
+
+  .price-card {
+    padding-left: 20px;
+  }
 
 }
