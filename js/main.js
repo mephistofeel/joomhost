@@ -7,7 +7,16 @@ $(function(){
     slidesToShow: 2,
     slidesToScroll: 2,
     dots: true,
-    arrows: false
+    arrows: false,
+    responsive: [
+      {
+        breakpoint: 1044,
+        settings: {
+          slidesToShow: 1,
+          slidesToScroll: 1,
+        }
+      }
+    ]  
   });
 
   $('.burger-menu').on('click', function(){

@@ -1,3 +1,17 @@
+@media (max-width: 1265px) {
+  .reviews-slider .slick-list {
+    margin: 0;
+  }
+  
+  .reviews-slider .slick-slide {
+    margin: 0;
+  }
+
+  .reviews-box {
+    box-shadow: none;
+  }
+}
+
 @media (max-width: 1176px) {
 
   .pricing__price-list {
@@ -31,6 +45,23 @@
 
   .promo-article__info {
     max-width: 425px;
+  }
+
+}
+
+@media (max-width: 1044px) {
+
+  .reviews {
+    padding: 75px 0 70px;
+  }
+
+  .reviews-slider {
+    margin-top: 70px;
+  }
+
+  .reviews-box {
+    width: 524px;
+    margin: 0 auto;
   }
 
 }
@@ -91,7 +122,7 @@
 
 }
 
-@media (max-width: 870px) {
+@media (max-width: 880px) {
 
  .promo-article__superman {
    width: 300px;
@@ -111,7 +142,7 @@
 @media (max-width: 816px) {
 
   .pricing {
-    padding: 80px 0 80px;
+    padding: 80px 0 50px;
   }
 
   .pricing__text--small {
@@ -129,7 +160,7 @@
 
 }
 
-@media (max-width: 735px) {
+@media (max-width: 740px) {
 
   .promo-article .container {
     flex-wrap: wrap;
@@ -154,6 +185,24 @@
     left: 179px;
   }
 
+}
+
+@media (max-width: 560px) {
+  .reviews-box {
+    width: 100%;
+    display: block;
+  }
+
+  .reviews-box__image {
+    width: 100%;
+    min-height: 200px;
+  }
+
+  .reviews-box__content {
+    width: 100%;
+    min-height: 280px;
+    padding: 20px;
+  }
 }
 
 @media (max-width: 425px) {
@@ -186,8 +235,6 @@
     font-size: 40px;
     line-height: 42px;
   }
-
-  
 
   .price-card {
     padding-left: 20px;
