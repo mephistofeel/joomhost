@@ -781,12 +781,13 @@ a {
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
           flex-direction: column;
+  width: 268px;
 
   font-size: 11px;
 }
 
 .page-footer__feedback-field {
-  width: 268px;
+  width: 100%;
   padding: 0 10px;
 
   color: #718db2;
